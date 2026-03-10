@@ -1,0 +1,34 @@
+ログイン機能
+fortify
+
+① Blade作成
+login.blade
+register.blade
+
+パスワード忘れの場合、forgot resetも
+
+② Fortifyインストール
+
+③ FortifyServiceProvider設定
+
+④ users migration編集 modelも
+
+⑤ CreateNewUser編集
+(User::create)
+
+⑥ php artisan migrate
+
+⑦ register送信
+
+usersテーブル保存
+
+⑧ TodoControllerで画面作る
+
+
+HTML css作成
+index表示できるように
+indexには常に自分のtodos表示
+追加削除編集
+
+ファクトリー
+管理者どうするか

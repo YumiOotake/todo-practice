@@ -1,0 +1,33 @@
+.header {
+    background-color: #E6E6FA;
+}
+
+.header__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__utilities {
+
+}
+
+.header__logo {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+
+.header__form-button {
+    border: none;
+    color: #000;
+    font-size: 16px;
+    background-color: #E6E6FA;
+    cursor: pointer;
+}
