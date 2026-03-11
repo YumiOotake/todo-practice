@@ -1,10 +1,13 @@
+body {
+    background-color: rgb(240, 240, 240);
+}
 .header {
-    background-color: #E6E6FA;
+    background-color: #cfcffa;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .header__inner {
-    max-width: 1200px;
-    margin: 0 auto;
     padding: 16px;
     display: flex;
     justify-content: space-between;
@@ -22,12 +25,14 @@
     font-size: 24px;
 }
 
-
-
 .header__form-button {
     border: none;
     color: #000;
     font-size: 16px;
-    background-color: #E6E6FA;
+    background-color: #cfcffa;
     cursor: pointer;
+}
+.login-name h2 {
+    font-size: 16px;
+    text-align: center;
 }

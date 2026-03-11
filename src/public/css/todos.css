@@ -1,0 +1,120 @@
+.todo__content {
+    max-width: 1000px;
+    margin: 16px auto;
+}
+
+.todo__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section__title {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add__form-button {
+    color: #fff;
+    background-color: hsl(217, 94%, 57%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-search__section {
+    margin-bottom: 16px;
+}
+
+.todo-search__section,
+.todo-table {
+    box-shadow: 0 0 3px gray;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.search-form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+
+.search-form__item {
+    width: 40%;
+
+}
+
+.search-form__item input {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+
+.search-form__category {
+    width: 20%;
+}
+
+.search-form__category select {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+
+.search-form__status {
+    width: 20%;
+}
+
+.search-form__status select {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+
+.search-form__button {
+    width: 14%;
+}
+
+.search-form__button--submit {
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    background-color: hsl(217, 94%, 57%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todo-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.todo-table__row th,
+.todo-table__row td {
+    padding: 12px 8px;
+    /* ← 上下の余白で行間を確保 */
+    border-bottom: 1px solid #e0e0e0;
+    /* ← 行の区切り線 */
+}
+/* ヘッダー行のスタイル */
+.todo-table__row th {
+    text-align: left;
+}
+
+.todo-table__item:first-child {
+    width: 50%;
+}
+
+.update-form__button-submit,
+.delete-form__button-submit {
+    color: #fff;
+    background-color: hsl(217, 94%, 57%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+}

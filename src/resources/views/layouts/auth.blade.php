@@ -19,10 +19,10 @@
 
                 <ul class="header__nav">
                     <li class="header__nav-item">
-                        <a class="header__nav-link" href="{{ route('/') }}">マイページ</a>
+                        <a class="header__nav-link" href="{{ route('todos.index') }}">マイページ</a>
                     </li>
                     <li class="header__nav-item">
-                        <form action="/logout" method="post" class="header__nav-form">
+                        <form action="{{ route('logout') }}" method="post" class="header__nav-form">
                             @csrf
                             <button type="submit" class="header__nav-button">ログアウト</button>
                         </form>

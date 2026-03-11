@@ -26,9 +26,26 @@ usersテーブル保存
 
 
 HTML css作成
+テーブル、モデル、コントローラー作成
+シーディング　ファクトリで入れてみる
+
 index表示できるように
 indexには常に自分のtodos表示
-追加削除編集
+カテゴリ、statusも一緒に表示
+
+追加
+title、category、statusを追加　nullはなしで
+
+
+編集
+old　なければ元々の値保持
+idは{id}でやり取りする
+
+削除
+
+検索機能　title、category、statusで検索できるように
+
+バリデーション
 
 ファクトリー
 管理者どうするか

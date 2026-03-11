@@ -15,18 +15,27 @@
     <header class="header">
         <div class="header__inner">
             <div class="header__utilities">
-                <a href="/" class="header__logo">Todos</a>
+                <a href="/todos" class="header__logo">Todos</a>
             </div>
 
-            <form action="/logout" method="post" class="header__form">
+            <form action="{{ route('logout') }}" method="post" class="header__form">
                 @csrf
                 <button type="submit" class="header__form-button">ログアウト</button>
             </form>
 
         </div>
-    </header>
+</header>
+        <div class="login-name">
+            @auth
+                <h2>{{ auth()->user()->name }}さん ログイン中</h2>
+            @else
+                <h2>ログインしてください</h2>
+            @endauth
+        </div>
+
+
     <main>
-        @yield('content')
+@yield('content')
     </main>
 </body>
 
